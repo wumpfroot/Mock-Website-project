@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --primary-color: #f60f20;
+    --primary-color: #eafa0a;
     --secondary-color: #1b206e;
     --bg-primary: #50ffaf;
     --border-primary:#191919;
@@ -48,7 +48,7 @@ p {
     right: 0;
     width: 60px;
     height: 60px;
-    background: var(--primary-color) url(../images/menu.png);
+    background: var(--bg-primary) url(../images/menu.png);
     z-index: 20;
     background-size: 30px;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ p {
 }
 
 .toggle.active {
-    background: var(--primary-color) url(../images/close.png);
+    background: var(--bg-primary) url(../images/close.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
@@ -144,7 +144,7 @@ section.home {
 .btn {
     display: inline-block;
     background: var(--primary-color);
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px 30px;
     margin: 20px 0;
